@@ -251,7 +251,7 @@ function calendar (calendarOptions) {
     }
   }
 
-  function showTimeList () { if (timelist) { timelist.style.display = 'block'; } }
+  function showTimeList () { if (timelist) { timelist.style.display = ''; } }
   function hideTimeList () { if (timelist) { timelist.style.display = 'none'; } }
   function showCalendar () { container.style.display = 'inline-block'; api.emit('show'); }
   function hideCalendar () {
